@@ -1,0 +1,48 @@
+{
+  "mod_elements": [
+    {
+      "name": "TestBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/economics/models/block/test_block.json",
+          "src/main/resources/assets/economics/models/item/test_block.json",
+          "src/main/resources/assets/economics/blockstates/test_block.json",
+          "src/main/java/net/mcreator/economics/block/TestBlockBlock.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.economics.test_block": "Test Block"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "economics",
+    "modName": "economics",
+    "version": "1.0.0",
+    "author": "ethan, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.economics",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
