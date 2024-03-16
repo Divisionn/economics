@@ -16,7 +16,6 @@ import net.mcreator.economics.EconomicsMod;
 
 public class EconomicsModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, EconomicsMod.MODID);
-	public static final RegistryObject<Item> WETAWDED = block(EconomicsModBlocks.WETAWDED);
 	public static final RegistryObject<Item> TEST_BLOCK = block(EconomicsModBlocks.TEST_BLOCK);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
