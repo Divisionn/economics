@@ -10,10 +10,12 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.economics.block.WETAWDEDBlock;
 import net.mcreator.economics.block.TestBlockBlock;
 import net.mcreator.economics.EconomicsMod;
 
 public class EconomicsModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, EconomicsMod.MODID);
+	public static final RegistryObject<Block> WETAWDED = REGISTRY.register("wetawded", () -> new WETAWDEDBlock());
 	public static final RegistryObject<Block> TEST_BLOCK = REGISTRY.register("test_block", () -> new TestBlockBlock());
 }

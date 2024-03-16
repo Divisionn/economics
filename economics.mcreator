@@ -3,6 +3,7 @@
     {
       "name": "TestBlock",
       "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "test_block",
@@ -14,13 +15,30 @@
           "src/main/java/net/mcreator/economics/block/TestBlockBlock.java"
         ]
       }
+    },
+    {
+      "name": "WETAWDED",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wetawded",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/economics/models/block/wetawded.json",
+          "src/main/java/net/mcreator/economics/block/WETAWDEDBlock.java",
+          "src/main/resources/assets/economics/blockstates/wetawded.json",
+          "src/main/resources/assets/economics/models/item/wetawded.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.economics.test_block": "Test Block"
+      "block.economics.test_block": "Test Block",
+      "block.economics.wetawded": "WETAWDED"
     }
   },
   "foldersRoot": {

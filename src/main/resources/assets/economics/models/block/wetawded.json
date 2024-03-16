@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "economics:block/screenshot_2024-01-15_200117",
+    "up": "economics:block/screenshot_2024-01-15_200117",
+    "north": "economics:block/screenshot_2024-01-15_200117",
+    "east": "economics:block/screenshot_2024-01-15_200117",
+    "south": "economics:block/screenshot_2024-01-15_200117",
+    "west": "economics:block/screenshot_2024-01-15_200117",
+    "particle": "economics:block/screenshot_2024-01-15_200117"
+  },
+  "render_type": "solid"
+}
