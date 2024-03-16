@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "economics:block/blacktexture",
+    "up": "economics:block/blacktexture",
+    "north": "economics:block/blacktexture",
+    "east": "economics:block/blacktexture",
+    "south": "economics:block/blacktexture",
+    "west": "economics:block/blacktexture",
+    "particle": "economics:block/blacktexture"
+  },
+  "render_type": "solid"
+}
